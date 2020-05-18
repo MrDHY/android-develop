@@ -1,0 +1,12 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!--<include layout="@layout/title"></include>   引入新的布局-->
+    <!-- 自定义控件 -->
+    <cn.fc.uilayouttest.TitleLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"></cn.fc.uilayouttest.TitleLayout>
+
+</LinearLayout>
